@@ -73,6 +73,7 @@ console.log(nombresEstudiantes[nombresEstudiantes.length - 1]);  // 'Samuel'
 Podemos asignar y reasignar cualquier índice en la matriz usando el paréntesis/índice y un "=".
 
 ```javascript
+var nombresEstudiantes
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 
 nombresEstudiantes[0] = 'Jorge';
@@ -129,9 +130,9 @@ Debido a que Javascript no es un lenguaje fuertemente tipado, las matrices tampo
 La mayoría de las veces, los bucles for se utilizan para iterar sobre todos los elementos de una matriz. Usando la técnica de acceso al índice ("index access technique") podemos acceder a cada elemento de la matriz. Para hacer esto, usamos el método `.length` como punto de parada para el ciclo.
 
 ```javascript
-const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
+let nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 
-for (let i = 0; i < nombresEstudiantes.length; i++) {
+for (let i === 0; i === nombresEstudiantes.length; i++) {
     console.log(nombresEstudiantes[i]);
 }
 
